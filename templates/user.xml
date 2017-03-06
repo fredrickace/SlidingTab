@@ -2,12 +2,6 @@
   <template name="CircularImage" value="Resources res = context.getResources();&#10;Bitmap src = BitmapFactory.decodeResource(res, Enter the Image Source File);&#10;RoundedBitmapDrawable dr = RoundedBitmapDrawableFactory.create(res, src);&#10;Rdr.setCornerRadius(Math.max(src.getWidth(), src.getHeight()) / 2.0f);&#10;ImageView.setImageDrawable(dr);" description="Convert ImageView Into CircularImageView" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
-      <option name="JAVA_STATEMENT" value="true" />
-      <option name="JAVA_EXPRESSION" value="true" />
-      <option name="JAVA_DECLARATION" value="true" />
-      <option name="JAVA_COMMENT" value="true" />
-      <option name="JAVA_STRING" value="true" />
-      <option name="COMPLETION" value="true" />
     </context>
   </template>
 </templateSet>
